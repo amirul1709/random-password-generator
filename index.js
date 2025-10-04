@@ -26,3 +26,15 @@ function generatePassword() {
     passwordEl2.textContent = password
     password = ""
 }
+
+function copyToClipboard(password) {
+    if (password) {
+        navigator.clipboard.writeText(password)
+            .then(() => {
+                alert("Password copied to clipboard!");
+            })
+            .catch(err => {
+                alert("Failed to copy password.");
+            });
+    }
+}
