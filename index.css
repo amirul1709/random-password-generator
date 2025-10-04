@@ -4,16 +4,16 @@ body {
     background-color: #1F2937;
     color: #FFFFFF;
     font-family: Inter, sans-serif;
-    width: 520px;
-}       
+    width: 450px;
+}
 
-h1{
+h1 {
     font-family: Karla, sans-serif;
     margin-bottom: 0;
 }
 
-span{
-    color:#10B981;
+span {
+    color: #10B981;
     display: block;
 }
 
