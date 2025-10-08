@@ -27,8 +27,6 @@ function generatePassword() {
     password = ""
 }
 
-window.generatePassword = generatePassword
-
 function copyToClipboard(password) {
     if (password) {
         navigator.clipboard.writeText(password)
