@@ -10,7 +10,7 @@ let passwordEl2 = document.getElementById("password2")
 let password = ""
 
 function generatePassword() {
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 15; i++) {
         let randomIndex = Math.floor(Math.random() * characters.length)
         password += characters[randomIndex]
     }
@@ -18,7 +18,7 @@ function generatePassword() {
     passwordEl1.textContent = password
     password = ""
 
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 15; i++) {
         let randomIndex = Math.floor(Math.random() * characters.length)
         password += characters[randomIndex]
     }
