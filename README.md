@@ -36,4 +36,4 @@ Open index.html in your browser to use the app.
 
 ## License
 
-This project is for educational purposes. See [Scrimba Fullstack Path](https://scrimba.com/fullstack-path-c0fullstack/~07p/s0ch8rlr3m/head) for more info.
+MIT
