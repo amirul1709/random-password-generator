@@ -1,8 +1,12 @@
+:root {
+    color-scheme: light dark;
+}
+
 body {
     margin: 0;
     padding: 20px 40px;
-    background-color: #1F2937;
-    color: #FFFFFF;
+    background-color: light-dark(#ECFDF5, #1F2937);
+    color: light-dark(#111827, #FFFFFF);
     font-family: "Inter", sans-serif;
     width: 450px;
 }
@@ -18,7 +22,7 @@ span {
 }
 
 .sub-heading {
-    color: #D5D4D8;
+    color: light-dark(#6B7280, #D5D4D8);
     font-size: 20px;
 }
 
