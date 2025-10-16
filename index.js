@@ -5,8 +5,8 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
     "(", ")", "_", "-", "+", "=", "{", "[", "}", "]", ",", "|", ":", ";", "<", ">", ".", "?",
     "/"];
 
-let passwordEl1 = document.getElementById("password1")
-let passwordEl2 = document.getElementById("password2")
+const passwordEl1 = document.getElementById("password1")
+const passwordEl2 = document.getElementById("password2")
 let password = ""
 
 function generatePassword() {
@@ -33,7 +33,7 @@ function copyToClipboard(password) {
             .then(() => {
                 alert("Password copied to clipboard!");
             })
-            .catch(err => {
+            .catch(() => {
                 alert("Failed to copy password.");
             });
     }
