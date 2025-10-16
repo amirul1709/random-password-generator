@@ -25,6 +25,9 @@ function generatePassword() {
 
     passwordEl2.textContent = password
     password = ""
+
+    passwordEl1.style.display = "inline-block"
+    passwordEl2.style.display = "inline-block"
 }
 
 function copyToClipboard(password) {

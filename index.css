@@ -47,6 +47,11 @@ span {
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+}
+
+.passwords-btn:hover {
+    background-color: #233042;
 }
 
 .generatePassword-btn {
